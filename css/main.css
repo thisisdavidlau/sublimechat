@@ -1,0 +1,149 @@
+* {
+	color: white;
+}
+
+body {
+	background-color: #272822;
+	margin: 0;
+}
+
+button {
+	display: none;
+}
+
+form {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	width: 100%;
+}
+
+input {
+	vertical-align: bottom;
+	line-height: 25px;
+	height: 25px;
+	width: 100%;
+	font-family: 'menlo-regular', monospace;
+	font-size: 14px;
+	background-color: #575757;
+	border: none;
+	display: block;
+	padding-left: 5px;
+}
+
+textarea {
+	vertical-align: bottom;
+	/*line-height: 40px;*/
+	height: 40px;
+	width: 100%;
+	font-family: 'menlo-regular', monospace;
+	font-size: 14px;
+	background-color: #575757;
+	border: none;
+	display: block;
+	padding-left: 5px;
+}
+
+ol li h1 {
+	display: inline;
+	padding-left: 5px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	font-family: 'menlo-regular', monospace;
+	letter-spacing: 1px;
+
+}
+
+ol li em {
+	color: #4AB2DA;
+}
+
+.em {
+	color: #4AB2DA;
+	font-style: italic;
+	margin-left: 0;
+}
+
+ol li h2 {
+	display: inline;
+	color: #91C629;
+	padding-left: 0px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	font-family: 'menlo-regular', monospace;
+	letter-spacing: 1px;
+}
+
+
+ol { 
+	padding-left: 10px;
+	font-size: 15px;
+    counter-reset: item;
+    list-style-type: none;
+    font-family: 'menlo-regular', monospace;
+    display: block;
+
+}
+li { 
+	display: block;
+}
+
+li:before { 
+    content: counter(item) "  "; 
+    counter-increment: item ;
+    color: #706C5B;
+    font-size: 14px;
+}
+
+
+
+p {
+	margin-left: 45px;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+	font-size: 14px;
+	font-family: 'Source Code Pro', monospace;
+	letter-spacing: 1px;
+	font-weight: 500;
+	display: inline;
+}
+
+span {
+	color: #E6306B;
+}
+
+.main {
+	height: 10%;
+	overflow: scroll;
+	display: block;
+}
+
+.comment {
+	color: #706C5B;
+}
+
+.pUsText {
+	margin: 0;
+}
+
+.pequal {
+	color: #CF2071;
+	margin: 0;
+}
+
+.foot {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: block;
+}
+
+
+.user:first-letter {
+	text-transform: capitalize;
+}
